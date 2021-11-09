@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+div::selection{
+	color: red;
+  background: yellow;
+}
+
+p:first-child {
+  background-color: pink;
+  padding: 10px;
+}
+
+div:hover p{
+  background-color: yellow;
+}
+
+p.intro::first-letter {
+  color: #ff0000;
+  font-size: 200%;
+}  
+</style>
+</head>
+<body>
+
+<h1>CSS Seudo-class</h1>
+
+<div>Hover over this div element to show the p element
+  <p>I can change color!</p>
+</div>
+
+<h1>CSS Seudo-element</h1>
+<p class="intro">This is an introduction</p>
+</body>
+</html>
+
+
